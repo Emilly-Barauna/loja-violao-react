@@ -1,0 +1,38 @@
+.section1{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-color: #ba1211;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nossaLoja, .imagemLoja{
+    position: relative;
+    width: 43%;
+    height: 350px;
+    color: #ffff;
+    font-family: Arial;
+
+}
+.nossaLoja{
+    background-color: #ba8a8a;
+    padding: 20px;
+    margin-right: 50px
+}
+.nossaLoja h1{
+    font-size: 25x;
+    margin-bottom: 25px;
+}
+.nossaLoja p{
+    font-size: 18px;
+    text-align: left;
+}
+.imagemLoja{
+    background-image: url(../loja.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}

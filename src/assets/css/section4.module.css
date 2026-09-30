@@ -1,0 +1,72 @@
+.formulario {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding: 45px;
+    justify-content: flex-start;
+    gap: 60px;
+    background-color: white;
+    box-sizing: border-box;
+    border-right: #c67172 solid 10px;
+    border-bottom: #c67172 solid 15px;
+    font-family: arial;
+
+}
+
+.cadastro {
+    position: relative;
+    width: 45%;
+    margin-top: 10px;
+    color: black;
+    font-size: 15px;
+}
+
+.cadastro fieldset {
+    border: none;
+    margin-left: 40px;
+}
+
+.cadastro label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cadastro input {
+    display: block;
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.cadastro textarea {
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.redeSocial {
+    position: relative;
+    width: 45%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.redeSocial h2 {
+    font-size: 25px;
+    color: navy;
+    margin-bottom: 20px;
+}
+
+.imagemWhats,.imagemInsta,.imagemFace {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 15px;
+}
